@@ -23,7 +23,7 @@ This file contains the implementation of `WeakPtr`, which provides a non-owning 
 * The `Lock()` function, returning a `SharedPtr` if the object still exists.
 
 #### sw_fwd.h
-This file contains the implementation of the `ControlBlock class`, which manages reference counting and stores information about the deleter. Key features:
+This file contains the implementation of the `ControlBlock` class, which manages reference counting and stores information about the deleter. Key features:
 
 * Managing strong and weak reference counts. 
 * Automatically releasing resources when the reference count reaches zero. 
